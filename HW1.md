@@ -6,7 +6,7 @@
 以北京大学学号邮箱为例
 
 1. 打开cmd或者powershell
-2. 输入`telnet pophz.qiye.163.com`
+2. 输入`telnet pophz.qiye.163.com 110`
 3. 看到`+OK POP3 ready`后输入`user 学号邮箱`并回车，比如`user 20000xxxxx@stu.pku.edu.cn`
 4. 看到`+OK send pass`后输入`pass 邮箱密码`并回车，比如`pass [数据隐藏]`
 5. 如果看到了类似`+OK 514 message(s)`的东西，说明登录成功了。这时候就可以使用`retr`这个命令查看邮件了，比如说我输入一个`retr 514`就可以看到我最新的一篇邮件。
