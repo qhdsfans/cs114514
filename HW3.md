@@ -28,7 +28,10 @@
 
 ## 第五题
 
-压缩率 $\frac{3210}{(60\times3+15)\times44100\times16\times2/(8\times1024)}\approx0.0956$
+压缩率 
+$$
+\frac{3210}{(60\times3+15)\times44100\times16\times2/(8\times1024)}\approx9.56\%
+$$
 
 ## 第六题
 
