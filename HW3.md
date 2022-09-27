@@ -25,3 +25,23 @@
 ## 第四题
     unicode = \u8ba1\u7b97\u6982\u8bba %28 b %29 2022
     utf-8 = %E8%AE%A1%E7%AE%97%E6%A6%82%E8%AE%BA%28%42%29%32%30%32%32
+
+## 第五题
+
+$\frac{3210}{(60\times3+15)\times44100\times16\times2/(8\times1024)}\approx9.56\%$
+
+## 第六题
+
+略
+
+## 第七题
+
+lena_gray.png $\frac{143}{512\times512/1024}\approx55.8\%$
+
+Lenna.jpg $\frac{100}{512\times512\times3/1024}\approx13\%$
+
+Lenna1bit.png $\frac{21}{512\times512/8/1024}\approx65.6\%$
+
+## 第八题
+
+忽略音频部分 $\frac{22668}{1920\times1080\times3\times29.97\times71/1024}\approx0.175\%$
