@@ -11,7 +11,6 @@ class OJparser:
         self.headers = headers
 
     def parse(self, pid, logfile, datafile):
-        page = 0
         url = f"https://programming.pku.edu.cn/probset/{pid}/ranks.do"
         resp = requests.get(url, headers=self.headers)
         bs = BeautifulSoup(resp.text, 'lxml')
