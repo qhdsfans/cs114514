@@ -1,4 +1,4 @@
-import csv, os, re
+import csv, os
 
 class CSVmaker:
     def update(self, path):
@@ -22,4 +22,3 @@ class CSVmaker:
                 writer.writerow(map(lambda x: x[0], scores))
                 writer.writerow(map(lambda x: x[1], scores))
                 writer.writerow(map(lambda x: x[2], scores))
-
